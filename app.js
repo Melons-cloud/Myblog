@@ -17,6 +17,8 @@ app.set('views','./views');
 // 注册所使用的模板引擎,第一个参数必须是view engine,第二个参数和app.engine这个方法中定义的模板引擎的名称（第一个参数）是一致的
 app.set('view engine','html');
 
+// 取消模板缓存
+swig.setDefaults({cache:false});
 
 /*
 req request对象
