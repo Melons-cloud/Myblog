@@ -6,6 +6,9 @@ var express =require("express");   //加载express模块
 var swig=require('swig');
 var app=express();
 
+// 设置静态文件托管
+app.use('/public',express.static( __dirname+'/public'));
+
 // 配置应用模板
 
 //定义当前应用所使用的模板引擎
@@ -32,6 +35,8 @@ app.get('/',function (req,res,next) {
     // 读取views目录下的指定文件，解析并返回给客户端
     res.render('index');
 })
+
+
 
 //监听http请求
 app.listen(8081);
