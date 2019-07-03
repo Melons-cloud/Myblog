@@ -3,7 +3,7 @@ var express =require("express");   //加载express模块
 //创建app应用
 
 //加载模板
-var swig=require('swing');
+var swig=require('swig');
 var app=express();
 
 // 配置应用模板
@@ -25,7 +25,10 @@ next 函数
 
 */
 app.get('/',function (req,res,next) {
-    res.send('<h1>欢迎光临我的博客!</h1>');
+    // res.send('<h1>欢迎光临我的博客!</h1>');
+
+    // 读取views目录下的指定文件，解析并返回给客户端
+    res.render('index');
 })
 
 //监听http请求
