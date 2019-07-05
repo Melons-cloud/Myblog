@@ -39,8 +39,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="323" />
-    <option name="y" value="92" />
+    <option name="x" value="608" />
+    <option name="y" value="169" />
     <option name="width" value="1400" />
     <option name="height" value="1011" />
   </component>
@@ -52,6 +52,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -73,7 +74,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -119,6 +119,7 @@
       <updated>1562158773986</updated>
       <workItem from="1562158776210" duration="502000" />
       <workItem from="1562159292819" duration="4473000" />
+      <workItem from="1562163829923" duration="73000" />
     </task>
     <task id="LOCAL-00001" summary="博客开发">
       <created>1562158903921</created>
@@ -239,14 +240,21 @@
       <option name="project" value="LOCAL" />
       <updated>1562163686471</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="博客开发">
+      <created>1562163837458</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1562163837458</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4975000" />
+    <option name="totallyTimeSpent" value="5048000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="418" y="147" width="1400" height="1011" extended-state="0" />
+    <frame x="231" y="27" width="1400" height="1011" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963072" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
