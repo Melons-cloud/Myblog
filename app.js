@@ -29,6 +29,12 @@ res response对象
 next 函数
 
 */
+
+// 根据不同的功能划分模块
+app.use('/admin',require('./routers/admin'));
+app.use('/api',require('./routers/api'));
+app.use('/',require('./routers/main'));
+
 app.get('/',function (req,res,next) {
     // res.send('<h1>欢迎光临我的博客!</h1>');
 
